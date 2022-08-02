@@ -1,0 +1,22 @@
+.sobre-nos {
+    display: flex;
+}
+.box-texto-sobre{
+    text-align: center;
+    height:max-content;
+    width: 45%;  
+
+}
+.box-texto-sobre p{
+    width: 90%;
+    font-size: 20px;
+    margin: 40px auto;
+}
+.box-texto-sobre h2{
+    margin-top: 40px;
+}
+.sobre-nos img {
+    width: 55%;
+    object-fit: cover;
+
+}

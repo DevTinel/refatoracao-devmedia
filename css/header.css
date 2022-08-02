@@ -1,0 +1,25 @@
+header {
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #f5c015;
+}
+header img{
+    width:150px;
+    padding-left: 2%;
+}
+
+.topo {
+    height: 90px;
+}
+.link-menu {
+    color: #f5c317;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 22px;
+    padding: 0px 20px;
+}
+.link-menu:hover {
+    background: #f5c015;
+    color: #262525;
+}

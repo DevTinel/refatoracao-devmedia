@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+  img {
+    display: none;
+  }
+
+  .formulario-contato {
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+    margin: 20px;
+  }
+  .ihamburgueria{
+    width: 100%;
+  }
+  .box-texto{
+    width: 100%;
+    margin: 20px;
+  }
+  .box-texto-sobre{
+    width: 100%;
+    margin: 20px;
+  }
+  .topo{
+justify-content: center;
+  }
+}

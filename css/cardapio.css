@@ -1,0 +1,36 @@
+
+.cardapio {
+    width: 100%;
+    display: flex;
+    height: max-content;
+}
+.cardapio img{
+    width: 45%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.lista-burgers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.lista-burgers li{
+    margin-bottom: 20px;
+}
+.lista-burgers p {
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+.lista-burgers span{
+    font-weight: 500;
+    font-size: 20px;
+}
