@@ -1,139 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta
-      name="description"
-      content="Venha conhecer a nossa Hamburgueria, a melhor e mais saborosa."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Nosso Burger</title>
-  </head>
-  <body>
-    <header class="topo">
-      <img src="img/logo.png" alt="Logo Burger" />
-      <nav>
-        <a href="#sobre" class="link-menu">Sobre</a>
-        <a href="#cardapio" class="link-menu">Hamburguers</a>
-        <a href="#contato" class="link-menu">Contato</a>
-      </nav>
-    </header>
-    <main>
-      <section class="conteudo hamburgueria">
-        <img src="img/hamburguer.jpg" alt="Hamburguer" />
-        <div class="box-texto">
-          <h1 class="titulo">Burger a melhor hamburgueria artesanal</h1>
-          <p>
-            O melhor hambúrguer do mundo para você! Escolhemos somente carnes
-            nobres de sabor destacado para nossos hambúrgueres.
-          </p>
-          <p>
-            Pensamos nos ingredientes que você mais gosta e montamos cada
-            receita com o objetivo de agradar determinado paladar.
-          </p>
-          <p>
-            Para valorizar ainda mais nossos sanduíches são montados em pão
-            artesanal produzidos pela Burger.
-          </p>
-        </div>
-      </section>
-      <section id="sobre" class="sobre-nos conteudo">
-        <div class="box-texto-sobre">
-          <h2 class="titulo">Conheça a Burger</h2>
-          <p>
-            Em nossas redes de lanchonete você será muito bem recepcionado, com
-            um ambiente familiar para receber você e seus convidados, alem de
-            excelentes lanches, você pode desfrutar dos nossos espaços para
-            passar bons momentos
-          </p>
-          <p>
-            Criamos um ambiente divertido, despojado e descontraído para que
-            você se sinta a vontade. E consiga aproveitar ao máximo a
-            experiência de deliciar um saboroso hambúrguer.
-          </p>
-        </div>
-        <img src="img/sobre.jpg" />
-      </section>
-      <section id="cardapio" class="conteudo cardapio">
-        <img src="img/trio-burger.jpg" />
-        <div class="lista-burgers">
-          <h2 class="titulo">Nossos Hamburguers</h2>
-          <ul>
-            <li class="item-burger">
-              <p>Tradicional</p>
-              <span>(pão, carne, queijo, salada e molho especial)</span>
-            </li>
-            <li class="item-burger">
-              <p>Chicken Burger</p>
-              <span>(pão, frango, queijo, salada e molho especial)</span>
-            </li>
-            <li class="item-burger">
-              <p>Buger Cheddar Bacon</p>
-              <span
-                >(pão, carne, queijo cheddar cremoso, bacon e molho
-                especial)</span
-              >
-            </li>
-            <li class="item-burger">
-              <p>Mega Burger</p>
-              <span>(pão, duas carnes, queijo, bacon e molho especial)</span>
-            </li>
-            <li class="item-burger">
-              <p>Insano Burger</p>
-              <span
-                >(pão, três carnes, queijo, bacon, calabresa, ovo e molho
-                especial)</span
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
 
-      <section id="contato" class="conteudo contato">
-        <div class="form">
-          <h1 class="titulo">Contato</h1>
-          <p class="texto">Entre em contato para fazer seu pedido.</p>
-          <form class="formulario-contato" action="#" method="POST">
-            <input
-              class="input-formulario"
-              type="text"
-              name="nome"
-              placeholder="Nome"
-            />
-            <input
-              class="input-formulario"
-              type="text"
-              name="celular"
-              placeholder="Celular"
-            />
-            <select class="input-formulario" name="assunto">
-              <option value="">Assunto</option>
-              <option value="pedido">Pedido</option>
-              <option value="sugestao">Sugestão</option>
-              <option value="duvida">Duvida</option>
-            </select>
-            <textarea
-              class="input-formulario textarea"
-              name="mensagem"
-              placeholder="Mensagem"
-            ></textarea>
-            <button class="botao-formulario" type="submit">Enviar</button>
-          </form>
-        </div>
-        <img src="img/contato.jpg" alt="hamburguer" />
-      </section>
-    </main>
-    <footer class="rodape">
-      <p>Desenvolvido por DevMedia</p>
-    </footer>
-  </body>
+<head>
+  <meta name="description" content="Venha conhecer a nossa Hamburgueria, a melhor e mais saborosa." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Nosso Burger</title>
+</head>
+
+<body>
+  <header class="topo">
+    <img class="logo" src="img/logo.png" alt="Logo Burger" />
+    <nav class="nav">
+      <a href="#sobre" class="link-menu">Sobre</a>
+      <a href="#cardapio" class="link-menu">Hamburguers</a>
+      <a href="#contato" class="link-menu">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section class="conteudo hamburgueria">
+      <img class="hiden" src="img/hamburguer.jpg" alt="Hamburguer" />
+      <div class="box-texto">
+        <h1 class="titulo">Burger a melhor hamburgueria artesanal</h1>
+        <p>
+          O melhor hambúrguer do mundo para você! Escolhemos somente carnes
+          nobres de sabor destacado para nossos hambúrgueres.
+        </p>
+        <p>
+          Pensamos nos ingredientes que você mais gosta e montamos cada
+          receita com o objetivo de agradar determinado paladar.
+        </p>
+        <p>
+          Para valorizar ainda mais nossos sanduíches são montados em pão
+          artesanal produzidos pela Burger.
+        </p>
+      </div>
+    </section>
+    <section id="sobre" class="sobre-nos conteudo">
+      <div class="box-texto-sobre">
+        <h2 class="titulo">Conheça a Burger</h2>
+        <p>
+          Em nossas redes de lanchonete você será muito bem recepcionado, com
+          um ambiente familiar para receber você e seus convidados, alem de
+          excelentes lanches, você pode desfrutar dos nossos espaços para
+          passar bons momentos
+        </p>
+        <p>
+          Criamos um ambiente divertido, despojado e descontraído para que
+          você se sinta a vontade. E consiga aproveitar ao máximo a
+          experiência de deliciar um saboroso hambúrguer.
+        </p>
+      </div>
+      <img class="hiden" src="img/sobre.jpg" />
+    </section>
+    <section id="cardapio" class="conteudo cardapio">
+      <img class="hiden" src="img/trio-burger.jpg" />
+      <div class="lista-burgers">
+        <h2 class="titulo">Nossos Hamburguers</h2>
+        <ul>
+          <li class="item-burger">
+            <p>Tradicional</p>
+            <span>(pão, carne, queijo, salada e molho especial)</span>
+          </li>
+          <li class="item-burger">
+            <p>Chicken Burger</p>
+            <span>(pão, frango, queijo, salada e molho especial)</span>
+          </li>
+          <li class="item-burger">
+            <p>Buger Cheddar Bacon</p>
+            <span>(pão, carne, queijo cheddar cremoso, bacon e molho
+              especial)</span>
+          </li>
+          <li class="item-burger">
+            <p>Mega Burger</p>
+            <span>(pão, duas carnes, queijo, bacon e molho especial)</span>
+          </li>
+          <li class="item-burger">
+            <p>Insano Burger</p>
+            <span>(pão, três carnes, queijo, bacon, calabresa, ovo e molho
+              especial)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato" class="conteudo contato">
+      <div class="form">
+        <h1 class="titulo">Contato</h1>
+        <p class="texto">Entre em contato para fazer seu pedido.</p>
+        <form class="formulario-contato" action="#" method="POST">
+          <input class="input-formulario" type="text" name="nome" placeholder="Nome" />
+          <input class="input-formulario" type="text" name="celular" placeholder="Celular" />
+          <select class="input-formulario" name="assunto">
+            <option value="">Assunto</option>
+            <option value="pedido">Pedido</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="duvida">Duvida</option>
+          </select>
+          <textarea class="input-formulario textarea" name="mensagem"></textarea>
+          <button class="botao-formulario" type="submit">Enviar</button>
+        </form>
+      </div>
+      <img class="hiden" src="img/contato.jpg" alt="hamburguer" />
+    </section>
+  </main>
+  <footer class="rodape">
+    <p>Desenvolvido por DevMedia</p>
+  </footer>
+</body>
+
 </html>
