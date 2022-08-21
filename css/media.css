@@ -1,27 +1,74 @@
-@media (max-width: 1024px) {
-  img {
-    display: none;
+@media(max-width:1024px){
+  .hamburgueria{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0 auto !important;
+  }
+  .hamburgueria img{
+      width: 100%;
+      object-fit: cover;
+  }
+  .box-texto {
+      text-align: center;
+      width: 100%;
+      margin: 20px;
   }
 
-  .formulario-contato {
-    width: 100%;
+}
+@media(max-width:1024px){
+.sobre-nos{
+  display: flex;
+  flex-direction: column;
+}
+.box-texto-sobre{
+  width: 100%;
+  margin: 0;
+}
+.sobre-nos img{
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 4px solid #f5c015;
+}
+}
+@media(max-width:1024px){
+.cardapio{
+  flex-direction: column;
+}
+.cardapio img {
+  width: 100%;
+}
+.lista-burgers{
+  width: 100%;
+}
+.contato img{
+  display: none;
+}
+.form{
+  margin: 0 auto;
+
+}
+.formulario-contato{
+  width: 100%;
+}
+}
+@media (max-width: 768px) {
+  .hamburgueria{
+    padding-top: 150px !important;
+  }
+  .hiden {
+    display: none !important;
   }
   .form{
-    width: 100%;
-    margin: 20px;
+    width: 90%;
   }
-  .ihamburgueria{
-    width: 100%;
-  }
-  .box-texto{
-    width: 100%;
-    margin: 20px;
-  }
-  .box-texto-sobre{
-    width: 100%;
-    margin: 20px;
-  }
-  .topo{
-justify-content: center;
-  }
+ .topo{
+  flex-direction: column;
+  padding-bottom: 30px;
+  height: max-content;
+ }
+.logo{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 }

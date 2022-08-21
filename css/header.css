@@ -4,6 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 4px solid #f5c015;
+    width: 100%;
 }
 header img{
     width:150px;
@@ -11,7 +12,8 @@ header img{
 }
 
 .topo {
-    height: 90px;
+    height: 80px;
+    position: fixed;
 }
 .link-menu {
     color: #f5c317;

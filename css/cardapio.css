@@ -5,10 +5,13 @@
     height: max-content;
 }
 .cardapio img{
-    width: 45%;
+    width: 50%;
     object-fit: cover;
 }
-
+.titulo{
+    margin-top: 40px;
+    font-size: 40px;
+}
 
 
 
@@ -19,18 +22,17 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    width: 100%;
+    width: 50%;
     padding-bottom: 40px;
 }
 .lista-burgers li{
     margin-bottom: 20px;
 }
 .lista-burgers p {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 8px;
     font-weight: normal;
 }
 .lista-burgers span{
-    font-weight: 500;
     font-size: 20px;
 }

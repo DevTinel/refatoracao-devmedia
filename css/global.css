@@ -32,7 +32,6 @@ img {
 .conteudo {
   background-color: #262525;
   color: #fff;
-  margin: 0 auto;
   width: 100%;
 }
 .conteudo:nth-child(odd) {
